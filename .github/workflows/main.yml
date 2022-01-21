@@ -27,6 +27,7 @@ jobs:
           push: true
           tags: tatuads/rotten-potatoes:V${{github.run_number}}
   CD:
+    needs: [CI]
     runs-on: ubuntu-latest
     
     steps:
