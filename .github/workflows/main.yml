@@ -25,4 +25,4 @@ jobs:
           context: ./src
           file: ./src/Dockerfile
           push: true
-          tags: tatuads/rotten-potatoes:${{github.run_number}}
+          tags: tatuads/rotten-potatoes:V${{github.run_number}}
