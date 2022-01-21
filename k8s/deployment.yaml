@@ -52,7 +52,7 @@ spec:
     spec:
       containers:
       - name: web
-        image: tatuads/rotten-potatoes:v2
+        image: tatuads/rotten-potatoes:latest
         ports:
         - containerPort: 5000
         env:
